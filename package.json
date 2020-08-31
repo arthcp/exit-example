@@ -1,0 +1,16 @@
+{
+  "name": "exit-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browserify exit.js > bundle.js && http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maticnetwork/maticjs": "^2.0.5",
+    "browserify": "^16.5.2",
+    "http-server": "^0.12.3"
+  }
+}
